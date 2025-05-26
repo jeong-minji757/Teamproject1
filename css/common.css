@@ -1,5 +1,12 @@
+body{
+  height: 500vh;
+  background-color: rgb(131, 131, 130);
+}
 
-
+main {
+  padding-top: 6.3rem; /* header height와 같게 */
+  min-height: 500vh;
+}
 /* 작업할 때 body, main은 삭제해주세요 임의로 넣었습니다. */
 html, body{
   margin: 0;
