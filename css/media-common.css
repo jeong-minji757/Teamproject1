@@ -1,8 +1,8 @@
-
+* common */
   #section0 h2.tit,
   h2.tit{
     font-size: 3.6rem; 
-    line-height: 3.rem;
+    line-height: 3rem;
     font-weight: 600;
     letter-spacing: -0.2rem;
   }
@@ -22,7 +22,7 @@
     color: #fff;
     display: flex;
     width: 45rem;
-    height: 3.8rem;
+    height: 5.6rem;
     justify-content: center;
     align-items: center;
     font-size: 1.6rem;

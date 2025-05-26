@@ -59,25 +59,3 @@ $(document).ready(function(){
     $(this).toggleClass("active");
   });
 });
-
-
-$(document).ready(function () {
-  let showCount = window.innerWidth >= 1200 ? 3 : 2;
-
-  // 1. 처음엔 2개 또는 3개만 보임
-  $(".news li").hide().slice(0, showCount).show();
-
-  // 2. 버튼 누를 때마다 2개 또는 3개씩 보여줌
-  $(".con_btn").click(function (e) {
-    e.preventDefault();
-
-    const hiddenItems = $(".news li:hidden");
-
-    hiddenItems.slice(0, showCount).fadeIn();
-
-    // 남은 게 현재 보여줄 수 있는 개수보다 적으면 버튼 숨김
-    if (hiddenItems.length <= showCount) {
-      $(this).hide();
-    }
-  });
-});
