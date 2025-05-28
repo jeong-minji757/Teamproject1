@@ -13,6 +13,11 @@ main .visual{
   background: url(../image/Indianink-top.png) no-repeat center center; 
   background-size: cover;
 }
+
+main .visual h2{
+  font-size: 3rem;
+}
+
 main .smenu.mob_only{
   margin-top: 2rem;
 }
