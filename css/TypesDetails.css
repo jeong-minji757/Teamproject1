@@ -5,7 +5,20 @@
   left: -20rem;
   z-index: -1;
 }
+#myAnimatedPath {
+  stroke: black;
+  stroke-width: 1; 
+  fill: none;
+  stroke-dasharray: var(--path-length);
+  stroke-dashoffset: var(--path-length);
+  animation: drawLineAnimation 3s ease-out forwards;
+}
 
+@keyframes drawLineAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
 
 /* _____ #section0 공통 스타일 _____ */
 #section0 {

@@ -103,7 +103,6 @@ main .menu-btn button span {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  /* border: 1px solid #46d4ff; */
   width: auto;
   height: 30rem;
 }
@@ -149,7 +148,7 @@ main .menu-btn button span {
 }
 #section0 .imgbox:nth-child(2n) .txtbox {
   border-radius: 3rem 3rem 0 3rem;
-  left: -36rem;
+  left: -35rem;
 }
 
 #section0 .imgbox .txtbox h3 {

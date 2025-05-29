@@ -40,9 +40,7 @@
 }); */
 
 $(document).ready(function() {
-  // --- (이전에 작성한 $viewport, $articles, 페이지네이션 관련 변수 및 함수들 위치) ---
 
-  // --- 맛 프로필 바 (.percent 이미지) 너비 설정 및 애니메이션 ---
   const $percentImages = $('#section0 .content .right .taste img.percent');
 
   if ($percentImages.length > 0) {
@@ -109,4 +107,11 @@ $(document).ready(function() {
 
   // --- (이전에 작성한 페이지네이션, 휠, 드래그 관련 JavaScript 코드들이 여기에 이어짐) ---
 
+// 페이지 로드 시 또는 SVG 로드 후 실행
+const pathElement = document.getElementById('myAnimatedPath');
+if (pathElement) {
+  const length = pathElement.getTotalLength();
+  pathElement.style.setProperty('--path-length', length);
+  console.log('Path length set to CSS variable --path-length:', length);
+}
 });
