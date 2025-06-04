@@ -55,7 +55,7 @@ main .menu-btn button span {
 /* _____Section0 */
 #section0 .pagination {
   position: sticky;
-  top: 6rem;
+  top: 0;
   z-index: 5;
   padding: 1rem 0;
   font-size: 1.6rem;

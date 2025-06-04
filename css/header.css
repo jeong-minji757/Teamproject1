@@ -260,7 +260,7 @@ footer h4 img{
   display: flex;      
   align-items: center;
   justify-content: space-between; 
-  }
+}
   .header_left{
     display: flex;
     align-items: center;
@@ -315,64 +315,64 @@ footer h4 img{
   z-index: 9;
   transition: all 0.5s;
   display: none;
-  }
-  .megamenu.active{
-    display: block;
-  }
-  .megamenu li{
-    padding: 0;
-    width: 15rem;
-    margin: 0 auto;
-  }
+}
+.megamenu.active{
+  display: block;
+}
+.megamenu li{
+  padding: 0;
+  width: 15rem;
+  margin: 0 auto;
+}
 
-  .megamenu li a{
-    font-size: 1.5rem;
-    font-weight: 300;
-    color: #fff;
-    margin-bottom: 1.5rem;
-    height: inherit;
-    display: block;
-    width: 100%;
-    text-align: center; 
-  }
+.megamenu li a{
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  height: inherit;
+  display: block;
+  width: 100%;
+  text-align: center; 
+}
 
-  .megamenu li:hover a{
-    font-weight: 600;
-    color:#e84141    
-  }
-  .megamenu-bg{
-    position: absolute;
-    top: 6.5rem;
-    left: 0;
-    height: 0;
-    width: 100%;
-    z-index: 7;
-    background: #2e2e2e;
-    box-shadow: 0px 3px 5px 0px b58c4e(0 0 0 / 15%);
-    transition: all 0.5s;
-    display: none;
-    border-radius: 0 0 1rem 1rem;
-  }
-  .megamenu-bg.active{
-    display: block;
-    height: 20rem;
-  }
-  .site_group {
-    display: flex;
-    gap: 1.5rem;
-    align-items: center;
-  }
+.megamenu li:hover a{
+  font-weight: 600;
+  color:#e84141    
+}
+.megamenu-bg{
+  position: absolute;
+  top: 6.5rem;
+  left: 0;
+  height: 0;
+  width: 100%;
+  z-index: 7;
+  background: #2e2e2e;
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s;
+  display: none;
+  border-radius: 0 0 1rem 1rem;
+}
+.megamenu-bg.active{
+  display: block;
+  height: 20rem;
+}
+.site_group {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
 
-  .site_group a {
-    font-size: 1.6rem;
-    color: #444;
-    transition: color 0.3s;
-  }
+.site_group a {
+  font-size: 1.6rem;
+  color: #444;
+  transition: color 0.3s;
+}
 
-  .site_group a:hover {
-    color: #e84141;
-    font-weight: 500;
-  }
+.site_group a:hover {
+  color: #b58c4e;
+  font-weight: 500;
+}
 
   footer .mob_only{display: none;}
   footer .dsk_only{display: block;}
