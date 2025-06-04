@@ -55,12 +55,13 @@ main .menu-btn button span {
 /* _____Section0 */
 #section0 .pagination {
   position: sticky;
-  top: 0;
+  top: 1rem;
   z-index: 5;
   padding: 1rem 0;
   font-size: 1.6rem;
   color: #B32828;
-  min-height: 4rem; 
+  background-color: #fff;
+  min-height: 4rem;
 }
 #section0 .pagination-controls {
   display: flex;

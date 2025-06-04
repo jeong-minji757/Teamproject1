@@ -1,3 +1,8 @@
+main {
+  width: 100%;
+  padding: 50px;
+}
+
 main .txt-box h2{
   text-align: center;
   color: #121212;

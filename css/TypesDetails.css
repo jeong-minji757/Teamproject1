@@ -257,21 +257,12 @@
 }
 
 
-
-
-
-
-
-
 /* === 모바일 === */
 @media screen and (max-width:767px) {
   .dsk_only{
     display: none !important;
   }
 }
-
-
-
 
 /* === 텝, PC 공통 === */
 @media screen and (min-width:768px),
