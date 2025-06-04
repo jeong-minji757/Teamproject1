@@ -15,23 +15,45 @@
     <div class="rel">
       <div class="header_left">
         <div class="header_tit">
-          <a href="#">
-            <img src="image/logo.png" alt="logo" class="header_logo" />
+          <a href="main.html">
+            <img src="image/logo.png" alt="logo" class="header_logo">
           </a>
         </div>
       </div>
       <div class="header_right">
         <ul class="h_nav">
-          <li><a href="#">여운소개</a></li>
-          <li><a href="#">전통주의 종류</a></li>
-          <li><a href="#">나만의 술 찾기</a></li>
-          <li><a href="#">한달의 여운</a></li>
+          <li>
+            <a class="gnb-link" href="intro.html">여운소개</a>
+            <ul class="megamenu">
+              <li><a href="event.html">이달의 시음회</a></li>
+              <li><a href="reserve.html">시음회 예약</a></li>
+              <li><a href="news.html">News & Events</a></li>
+            </ul>
+          </li>
+          <li>
+            <a class="gnb-link" href="Types1.html">전통주의 종류</a>
+            <ul class="megamenu case2">
+              <li><a href="Types1.html">탁주</a></li>
+              <li><a href="Types2.html">약·청주</a></li>
+              <li><a href="Types3.html">증류주</a></li>
+              <li><a href="Types4.html">과실주</a></li>
+              <li><a href="Types5.html">기타주류</a></li>
+            </ul>
+          </li>
+          <li><a class="gnb-link" href="Survey.html">나만의 술 찾기</a></li>
+          <li>
+            <a class="gnb-link" href="handal.html">한달의 여운</a>
+            <ul class="megamenu">
+              <li><a href="handal_subs.html">한달의 여운 구독하기</a></li>
+            </ul>
+          </li>
           <li class="site_group">
             <div class="site_inner">
-              <a href="#">로그인</a>
-              <a href="#">회원가입</a>
+              <a href="login.html">로그인</a>
+              <a href="join.html">회원가입</a>
             </div>
           </li>
+          <div class="megamenu-bg"></div>
         </ul>
         <a href="#" class="mob_btn">
           <span></span>
@@ -40,18 +62,18 @@
         </a>
       </div>
 
+
       <div class="subNav">
         <div class="inner">
-          <div class="sub_menu">
+          <div class="sub_menu"> 
             <ul class="depth1">
               <li>
                 <span>여운소개</span>
-                <a href="#" class="sub_tit">여운 소개</a>
-                <!-- pc용 -->
+                <a href="intro.html" class="sub_tit">여운 소개</a>  <!-- pc용 -->
                 <ul class="depth2">
-                  <li><a href="#">이달의 시음회</a></li>
-                  <li><a href="#">시음회 예약</a></li>
-                  <li><a href="#">News & Events</a></li>
+                  <li><a href="event.html">이달의 시음회</a></li>
+                  <li><a href="reserve.html">시음회 예약</a></li>
+                  <li><a href="news.html">News & Events</a></li>
                 </ul>
               </li>
               <li>
@@ -67,23 +89,24 @@
               </li>
               <li>
                 <span>나만의 술 찾기</span>
-                <a href="#" class="sub_tit">나만의 술 찾기</a>
+                <a href="Survey.html" class="sub_tit">나만의 술 찾기</a> 
               </li>
               <li>
                 <span>한달의 여운</span>
-                <a href="#" class="sub_tit">한달의 여운</a>
+                <a href="handal.html" class="sub_tit">한달의 여운</a>
                 <ul class="depth2">
-                  <li><a href="#">한달의 여운 구독하기</a></li>
+                  <li><a href="handal_subs.html">한달의 여운 구독하기</a></li>
                 </ul>
               </li>
             </ul>
           </div>
-        </div>
-        <div class="site_group">
+        </div>     
+        <div class="site_group">  
           <a href="#" class="site_name">고객</a>
           <a href="#" class="site_name">이용약관</a>
         </div>
       </div>
+
     </div>
   </header>
 
@@ -252,38 +275,48 @@
   </section>
 
   <footer>
-    <!-- PC 추가________________________start -->
     <div class="dsk_only">
       <div class="rel">
-        <div class="footer-logo">
-          <img src="image/bottom-logo.png" alt="logo" />
+        <div class="footer-flex">
+          <div class="footer-logo">
+            <img src="image/bottom-logo.png" alt="logo">
+          </div>
+          <ul class="ft-menu">
+            <li>여운 소개</li>
+            <li>시음회 예약하기</li>
+            <li>나만의 술 찾기</li>
+            <li>여운 구독 및 체험하기</li>
+          </ul>
         </div>
-        <ul class="ft-menu">
-          <li>여운 소개</li>
-          <li>시음회 예약하기</li>
-          <li>나만의 술 찾기</li>
-          <li>여운 구독 및 체험하기</li>
-        </ul>
-        <div class="ft-content">
+      <div class="ft-content">
+        <div class="ft-left">
           <p>
-            (주)대한전통주협회 대표 박이서 대한전통주협회 경상남도 창원시
-            성산구 삼귀로 411-2 (귀산동) <br />
-            사업자 등록번호 693-85-02195 [사업자정보확인] 통신판매업 신고번호
-            제2020-창원성산-388호 <br />
-            개인정보관리책임자 이현하 070-4105-0977 CPO : 박이서
-            (yeoun.official@gmail.com)
+            (주)대한전통주협회 대표 박이서 대한전통주협회 경상남도 창원시 성산구 삼귀로 411-2 (귀산동) <br>
+            사업자 등록번호 693-85-02195 [사업자정보확인] 통신판매업 신고번호 제2020-창원성산-388호 <br>
+            개인정보관리책임자 이현하 070-4105-0977 CPO : 박이서 (yeoun.official@gmail.com)
+          </p>
+          <p class="copyright">
+            © 2025 대한전통주협회. All rights reserved.
           </p>
         </div>
-        <address>© 2025 대한전통주협회. All rights reserved.</address>
+        <div class="ft-right">
+          <p>
+            ※ 과음경고문구 <br>
+            19세 이상의 법적음주허용 소비자를 위한 컨텐츠입니다. <br>지나친 음주는 뇌졸중, 기억력 손상이나 치매를 유발합니다. <br>임신 중 음주는 기형아 출생 위험을 높입니다.
+          </p>
+        </div>
+      </div>
       </div>
     </div>
     <div class="mob_only">
       <h4>
         <a href="#">
-          <img src="image/bottom-logo.png" alt="logo" />
+          <img src="image/bottom-logo.png" alt="logo">
         </a>
       </h4>
-      <p class="copy">Copyright &copy;2025 CARPOOL</p>
+      <p class="copy">
+        Copyright &copy;2025 CARPOOL
+      </p>
     </div>
   </footer>
 

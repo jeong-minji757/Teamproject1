@@ -297,7 +297,7 @@ screen and (min-width:1200px) {
   }
 
   #section0 .content .left {
-    flex: 0 0 35rem; /* 너비 350px 고정, 늘어나거나 줄어들지 않음 */
+    flex: 0 0 35rem;
     margin-bottom: 0;
   }
   #section0 .content .left .alcoholImg {
