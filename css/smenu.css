@@ -1,0 +1,86 @@
+/* _____Main */
+
+main .visual{
+  height: 15rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fafafa;
+  text-align: center;
+  background: url(../image/Indianink-top.png) no-repeat center top;
+  background-size: cover;
+}
+
+main .smenu.mob_only{
+  margin-top: 2rem;
+}
+main .smenu ul:nth-child(2){
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+main .smenu li{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .smenu li a {
+  display: block;
+  text-align: center;
+}
+main .smenu li a.active p{
+  color: #121212;
+}
+main .smenu li p{
+  color: #737373;
+}
+main .smenu.mob_only li a.active p{
+  font-size: 2.4rem;
+}
+main .smenu li a img {
+  /* width: 70%; */
+  height: auto;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 0.8rem;
+}
+
+@media screen and (min-width:768px),
+screen and (min-width:1200px) {
+  .mob_only {
+  display: none !important;
+  }
+  /* _____Main */
+  main .smenu{
+  height: 20rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  list-style: none;
+  margin: 2rem 3rem 5rem 3rem;
+  }
+}
+
+
+
+
+
+/* ani */
+.ani.y_Bottom{
+  opacity: 0;
+  transform:translateY(40px);
+}
+.ani.y_Bottom.moving{
+  opacity: 1;
+  transform:translateY(0px);
+  transition: 1s;
+}
+.ani.delay02.y_Bottom.moving {transition-delay: .2s;}
+.ani.delay03.y_Bottom.moving {transition-delay: .3s;}
+.ani.delay04.y_Bottom.moving {transition-delay: .4s;}
+.ani.delay05.y_Bottom.moving {transition-delay: .5s;}
+.ani.delay06.y_Bottom.moving {transition-delay: .6s;}
+.ani.delay07.y_Bottom.moving {transition-delay: .7s;}
+.ani.delay08.y_Bottom.moving {transition-delay: .8s;}
