@@ -1,6 +1,6 @@
  // 술에 종류 밑 설명
         const drinkData = [
-            { name: "경탁주", category: "중류주", sweet: 1, sour: 1, fresh: 3, body: 3, aroma: 3, alcohol: 40, image: "../image/경탁주.png" },
+                        { name: "경탁주", category: "중류주", sweet: 1, sour: 1, fresh: 3, body: 3, aroma: 3, alcohol: 40, image: "../image/GyeongTakju.png" },
 
             { name: "배꽃 필 무렵", category: "중류주", sweet: 2, sour: 1, fresh: 3, body: 3, aroma: 3, alcohol: 40, image: "image/배꽃필무렵.png" },
 

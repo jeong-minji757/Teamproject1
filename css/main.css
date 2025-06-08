@@ -39,6 +39,7 @@ video {
   opacity: 1;
   animation: zoomIn 3s ease-in-out forwards;
   z-index: 0;
+  pointer-events: none;
 }
 
 @keyframes zoomIn {
