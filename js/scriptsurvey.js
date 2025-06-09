@@ -1,4 +1,4 @@
- // 술에 종류 밑 설명
+// 술에 종류 밑 설명
         const drinkData = [
                         { name: "경탁주", category: "중류주", sweet: 1, sour: 1, fresh: 3, body: 3, aroma: 3, alcohol: 40, image: "../image/GyeongTakju.png" },
 
@@ -101,15 +101,24 @@
             const optionsContainer = document.getElementById('options-container');
             optionsContainer.innerHTML = '';
             
+            // 기본 선택값 1로 설정
+            let defaultValue = question.options[0];
+            answers[currentQuestion] = defaultValue;
+
             question.options.forEach(option => {
                 const button = document.createElement('button');
                 button.className = 'option';
                 button.textContent = option;
                 button.onclick = () => selectOption(button, option);
+
+                // 기본값(1)일 때 selected 클래스 추가
+                if (option === defaultValue) {
+                    button.classList.add('selected');
+                }
                 optionsContainer.appendChild(button);
             });
-            
-            document.getElementById('next-btn').disabled = true;
+
+            document.getElementById('next-btn').disabled = false; // 기본 선택이 있으니 활성화
         }
 
         function selectOption(button, value) {
