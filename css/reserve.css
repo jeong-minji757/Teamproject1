@@ -3,16 +3,15 @@
 .dsk_only {
   display: none !important;
 }
-
-h2{
-  font-size: 2rem;
-  margin-bottom: 2rem;
+#section0{
+  text-align: center;
+  padding: 3rem 2rem;
+  border-bottom: 1px solid #ccc;
+  height: 32.1rem;
+  margin-top: 6.3rem;
 }
-#section1 {
-  padding: 1rem 2rem;
-}
-#section1 .tit{
-  margin-bottom: 4rem;
+#section0 .tit{
+    margin: 4rem auto 2rem;
 }
 .set_tit{
   display: flex;
@@ -175,6 +174,7 @@ h2{
   justify-content: center;
   margin-top: 5rem;
 }
+
 .infor_txt{
   display: flex;
   flex-direction: column;
@@ -195,7 +195,9 @@ h2{
   height: 10rem;
   background-color: #F8F8F8;
 }
-
+#section2 .rel{
+  padding-bottom: 10rem;
+}
 #map {
   max-width: 100%;
   margin: 4rem auto;

@@ -7,7 +7,7 @@
 body {
   font-family: 'Arial', sans-serif;
   /* background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); */
-  background-image: url(../image/backgroundsurvey.png);
+  background-image: url(../image/box.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -38,7 +38,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 65rem;
+  min-height: 50rem;
 }
 
 
@@ -66,7 +66,7 @@ body {
 h1 {
   color: #333;
   margin-bottom: 10px;
-  font-size: 3em;
+  font-size: 2.5rem;
 }
 
 .subtitle {
@@ -324,8 +324,8 @@ h1 {
 }
 
 #question-page button.next-btn {
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 90px;
+  padding-right: 90px;
   padding-top: 15px;
   padding-bottom: 15px;
   font-size: 1.5em;

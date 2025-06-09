@@ -14,6 +14,7 @@ header{
   padding: 2rem 2rem 0;
   transition: 0.3s ease-in-out;
   background-color: #fff;
+  border-bottom: 1px solid #999;
 }
 header .rel{
   display: flex;
@@ -197,6 +198,7 @@ footer h4 img{
   header{
     height: 6.3rem;
     padding: 0;
+    border-bottom: 1px solid #999;
   }
 
   header .rel {
@@ -249,10 +251,16 @@ footer h4 img{
   html{font-size: 62.5%;} 
   .mob_btn{display: none;}  
   /* Header */
-  header{
+   header {
     height: 6.3rem;
     padding: 0;
     border-bottom: 1px solid #999;
+    position: fixed; /* ← fixed로! */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: #fff;
   }
   .rel{
     max-width: 120rem;
@@ -346,7 +354,7 @@ footer h4 img{
 }
 .megamenu-bg{
   position: absolute;
-  top: 6.3rem;
+  top: 100%;
   left: 0;
   height: 0;
   width: 100%;

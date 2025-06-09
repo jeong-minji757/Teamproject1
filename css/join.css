@@ -2,11 +2,15 @@ main {
   width: 100%;
   border-radius: 10px;
 }
+section {
+  margin-top: 6.3rem;
+}
 
 .txt-box h2 {
   text-align: center;
   color: #121212;
-  margin-bottom: 30px;
+  padding-bottom: 9.5rem;
+  border-bottom: 2px solid #ddd;
 }
 
 /* join */
@@ -26,7 +30,7 @@ main {
 
 form{
   margin: auto;
-  max-width: 100rem;
+  max-width: 60rem;
   padding: 10rem 0;
 }
 

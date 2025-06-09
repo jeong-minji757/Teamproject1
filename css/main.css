@@ -25,6 +25,7 @@
   height: 60rem;
   overflow: hidden;
   position: relative;
+  margin-top: -6.3rem;
 }
 
 /* 비디오 */
@@ -56,9 +57,8 @@ video {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  
+  margin-top: -6.3rem;
 }
-
 .visual_title h2 {
   font-family: 'JSArirang-Regular';
   font-size: 10rem;
@@ -67,10 +67,10 @@ video {
   overflow: hidden;
   border-right: 2px solid white;
   width: 0;
-  max-width: 6ch; /* YEOUN 5글자 */
-  white-space: nowrap; /* 줄바꿈 방지 */
+  max-width: 6ch; 
+  white-space: nowrap; 
   animation:
-    typingEffect 2s steps(25, end) forwards, /* 5단계로 한 글자씩 */
+    typingEffect 2s steps(25, end) forwards, 
     blinkCursor 0.3s step-end 4 0.5s,  
     removeCursor 0.1s forwards 1.0s; 
 }
@@ -475,8 +475,8 @@ a.con_btn.main2 {
 
 }
 .svg1 {
-  stroke-width: 50;
-  stroke: #969696;
+  stroke-width: 60;
+  stroke: #dddddd;
   fill: none;
   stroke-dasharray: 78162;
   stroke-dashoffset: 78162;
@@ -520,6 +520,7 @@ a.con_btn.main2 {
 }
 .data span{
   border: 1px solid #000;
+  background-color: #fff;
   display: block;
   width: 100%;
   max-width: 30rem;
@@ -548,7 +549,10 @@ a.con_btn.main2 {
   }
 
 
-  .main-visual {height: 100vh;}
+  .main-visual {
+    height: 100vh;
+    margin-top: 6.3rem;
+  }
   video{height: 100vh;}
   main::before {height: 100vh;}
 
@@ -751,6 +755,10 @@ a.con_btn.main2 {
 
 /* pc________________________________ */
 @media screen and (min-width:1200px) {
+  .main-visual {
+    height: 100vh;
+    margin-top: 6.3rem;
+  }
   
   .btn_area{
     display: flex;
@@ -842,8 +850,11 @@ a.con_btn.main1 {
     max-width: 50rem;
     }
 
-  .scroll_img img{
-  width: 20rem;
+  .scroll_img{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;      
+  object-fit: cover;
   }
   .scroll_th{display: none;}
 

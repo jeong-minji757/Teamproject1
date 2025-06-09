@@ -5,19 +5,24 @@
 
 #section0{
   text-align: center;
-  padding: 2rem 0;
-  border-bottom: 1px solid #ddd;
+  padding: 3rem 2rem;
+  border-bottom: 1px solid #ccc;
+  height: 32.1rem;
+    margin-top: 6.3rem;
 }
-
+#section0 .tit{
+  margin: 4rem auto 2rem;
+}
 .set_tab{
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 .tab{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  min-width: 10rem;
   border: 1px solid #999;
   padding: 1rem;
   border-radius: 3rem;
@@ -31,6 +36,9 @@
 
 #section1{
   position: relative;
+}
+#section1 .rel{
+  padding-bottom: 10rem;
 }
 .new{
   display: flex;
