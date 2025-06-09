@@ -23,9 +23,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
 $(document).ready(function () {
-  let showCount = window.innerWidth >= 1200 ? 3 : 2;
+  function getShowCount() {
+    if (window.innerWidth >= 1200) {
+      return 4;
+    } else if (window.innerWidth >= 360) {
+      return 3;
+    } else {
+      return 2;
+    }
+  }
+
+  let showCount = getShowCount();
   let currentCount = showCount;
 
   function showItems() {
@@ -47,7 +56,7 @@ $(document).ready(function () {
   });
 
   $(window).on('resize', function () {
-    let newShowCount = window.innerWidth >= 1200 ? 3 : 2;
+    let newShowCount = getShowCount();
     if (showCount !== newShowCount) {
       showCount = newShowCount;
       currentCount = showCount; // 리사이즈 시 항상 처음 개수만 보여줌
@@ -55,6 +64,8 @@ $(document).ready(function () {
     }
   });
 });
+
+
 
 $(".set_tab .tab").click(function (e) {
   $(".set_tab .tab").removeClass("active");

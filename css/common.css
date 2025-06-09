@@ -3,9 +3,10 @@ html, body {
 }
 body{
   min-height: 35rem;
+  color: #121212;
 }
 main{
-    margin-top: 6.3rem;
+    margin-top: 12.6rem;
   }
 /* 모바일 기준 기본 스타일 */
 h2.tit {
@@ -44,13 +45,14 @@ a.con_btn {
 }
 
 section {
-  padding: 5rem 2rem;
+  padding: 10rem 2rem;
   position: relative;
   z-index: 0;
 }
 .rel {
   position: relative;
   height: 100%;
+  max-width: 120rem;
 }
 .img_wrap {
   position: relative;

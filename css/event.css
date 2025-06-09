@@ -7,6 +7,9 @@
 #section0{
   text-align: center;
   padding: 3rem 2rem;
+  border-bottom: 1px solid #ccc;
+  height: 32.1rem;
+  margin-top: 6.3rem;
 }
 #section0 .tit{
   margin-bottom: 2rem;
@@ -17,9 +20,6 @@
   width: 30rem;
 }
 
-#section0 hr{
-  margin-top: 4rem;
-}
 #section0 .rel{
   display: flex;
   justify-content: center;
@@ -330,14 +330,16 @@
   object-fit: cover;
 }
 /* section4 */
-#section4{
-  background-image: url(../image/bottom_bg.png);
+  #section4 {
+  background-image: 
+    linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(255,255,255,0)),
+    url(../image/box.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  margin-top: 0rem;
-
+  background-position: center center;
+  margin-top: 0;
 }
+
 .reveiw{
   width: 30rem;
   height: 28rem;
@@ -348,18 +350,7 @@
   border: 1px solid #e6e6e6;
 }
 .reveiw.rv1 {
-  height: 30rem;
-}
-.reveiw.rv2 {
   height: 26rem;
-}
-.reveiw.rv3,
-.reveiw.rv5,
-.reveiw.rv6{
-  height: 22.5rem;
-}
-.reveiw.rv4{
-  height: 32rem;
 }
 
 .reveiw_top {
@@ -388,7 +379,7 @@
   display: block;
   color: #999;
 }
-.reveiw_indicator{
+/* .reveiw_indicator{
   text-align: center;
   margin-top: 2rem;
 }
@@ -401,7 +392,7 @@
   margin: 0 5px;
   text-indent: -9999px;
   cursor: pointer;
-}
+} */
 .rv2, .rv3, .rv4, .rv5, .rv6{
   display: none;
 }
@@ -551,10 +542,14 @@
     font-style: normal;
   }
 
+  /* section4 */
+  #section4 .rel{ 
+    padding-bottom: 10rem;
+  }
   .reveiw_1, .reveiw_2{
     display: flex;
     margin: auto;
-    gap: 2rem;
+    gap: 3rem;
     margin-bottom: 2rem;
     width: 70rem;
   }
@@ -581,8 +576,22 @@
   }
   .reveiw{
   width: 32rem;
+}
+ .reveiw p{
+  font-size: 1.6rem;
+}
+  .reveiw.rv1 {
   height: 28rem;
 }
+.reveiw.rv2 {
+  height: 23rem;
+}
+.reveiw.rv3{
+  height: 21rem;
+}
+.reveiw.rv4{
+  height: 30rem;
+  }
 }
 
 
@@ -635,7 +644,6 @@
     margin-bottom: 3rem;    
   }
 
-  /* section4 */
   .reveiw_1, .reveiw_2{
   width: 100rem;
   }
@@ -669,6 +677,23 @@
     font-size: 2.2rem;
     font-style: normal;
   }
+  .reveiw.rv1 {
+  height: 31rem;
+}
+  .reveiw.rv2 {
+    height: 26rem;
+  }
+  .reveiw.rv3{
+    height: 21rem;
+  }
+  .reveiw.rv5,
+  .reveiw.rv6{
+    height: 23rem;
+  }
+  .reveiw.rv4{
+    height: 33rem;
+  }
+
 }
 
 

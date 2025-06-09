@@ -37,6 +37,7 @@
   font-size: 2.8rem;
   font-weight: 800;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 #section0 .mainTit p {
   font-size: 2rem;
@@ -280,6 +281,7 @@ screen and (min-width:1200px) {
   }
   #section0 .mainTit {
     text-align: left;
+    margin-left: 1rem;
   }
 
   #section0 .content {
@@ -323,10 +325,6 @@ screen and (min-width:1200px) {
 
 /* === 테블릿 === */
 @media screen and (min-width:768px) {
-  #section0 {
-  min-width: 78rem;
-  }
-
   #section0 .mainTit p {
     /* padding-right: 40rem; */
     display: inline-block;
