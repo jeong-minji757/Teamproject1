@@ -38,8 +38,57 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 50rem;
+  min-height: 60rem;
 }
+
+@media (max-width: 370px)  {
+  .test-page {
+    padding: 1.5rem;
+    border-radius: 18px;
+    min-height: 42rem;
+    height: auto;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.08);
+  }
+  .container {
+    padding: 10px 0 40px;
+    min-width: 0;
+    max-width: 100vw;
+  }
+  .question-title {
+    font-size: 2.2em;
+  }
+  .option {
+    font-size: 1.2em;
+    padding: 8px;
+  }
+  #question-page {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .test-page {
+    padding: 3rem 2rem;
+    border-radius: 24px;
+    min-height: 50rem;
+    height: auto;
+    box-shadow: 0 12px 48px rgba(0,0,0,0.10);
+  }
+  .container {
+    padding: 40px 0;
+    max-width: 800px;
+    min-width: 0;
+  }
+  .question-title {
+    font-size: 3em;
+  }
+  .option {
+    font-size: 1.5em;
+    padding: 12px;
+  }
+}
+
+
 
 
 #start-page .subtitle {
@@ -352,5 +401,29 @@ h1 {
 
 /* 아래 요소들이 이미지와 겹치지 않게 padding-top 추가 */
 #question-page {
-  padding-top: 150px; /* 이미지 높이+여백만큼 조절 */
+  padding-top: 30px; /* 이미지 높이+여백만큼 조절 */
+}
+
+
+
+
+body, html {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.surveymain {
+  flex: 1 0 auto;
+}
+footer {
+  flex-shrink: 0;
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  color: #666;
+  font-size: 1.2rem;
+  border-top: 1px solid #eee;
 }
