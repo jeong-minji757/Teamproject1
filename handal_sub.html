@@ -18,7 +18,7 @@
     <div class="rel">
       <div class="header_left">
         <div class="header_tit">
-          <a href="index.html">
+          <a href="main.html">
             <img src="image/logo.png" alt="logo" class="header_logo">
           </a>
         </div>
@@ -43,7 +43,7 @@
               <li><a href="Types5.html">기타주류</a></li>
             </ul>
           </li>
-          <li><a class="gnb-link" href="survey.html">나만의 술 찾기</a></li>
+          <li><a class="gnb-link" href="Survey.html">나만의 술 찾기</a></li>
           <li>
             <a class="gnb-link" href="handal.html">한 달의 여운</a>
             <ul class="megamenu">
@@ -57,7 +57,7 @@
             </div>
           </li>
         </ul>
-
+        <div class="megamenu-bg"></div>
         <a href="#" class="mob_btn">
           <span></span>
           <span></span>
@@ -74,7 +74,6 @@
                 <span>여운 소개</span>
                 <a href="info.html" class="sub_tit">여운 소개</a>  <!-- pc용 -->
                 <ul class="depth2">
-                  <li><a href="info.html">여운 소개</a></li>
                   <li><a href="event.html">이달의 시음회</a></li>
                   <li><a href="reserve.html">시음회 예약</a></li>
                   <li><a href="news.html">News & Events</a></li>
@@ -91,38 +90,23 @@
                   <li><a href="Types5.html">기타주류</a></li>
                 </ul>
               </li>
-
-
-
               <li>
                 <span>나만의 술 찾기</span>
-                <a href="survey.html" class="sub_tit">나만의 술 찾기</a>
-                <ul class="depth2">
-                  <li><a href="survey.html">나만의 술 찾기</a></li>
-                </ul>
+                <a href="Survey.html" class="sub_tit">나만의 술 찾기</a> 
               </li>
-
-
-              
               <li>
                 <span>한 달의 여운</span>
                 <a href="handal.html" class="sub_tit">한 달의 여운</a>
                 <ul class="depth2">
-                  <li><a href="handal.html">한 달의 여운</a></li>
                   <li><a href="handal_sub.html">한 달의 여운 구독하기</a></li>
                 </ul>
               </li>
             </ul>
           </div>
-        </div> 
-        <div class="site_group">  
-          <a href="login.html" class="site_name">로그인</a>
-          <a href="join.html" class="site_name">회원가입</a>
-        </div>    
+        </div>     
       </div>
 
     </div>
-            <div class="megamenu-bg"></div>
   </header>
 
   <main>
@@ -131,11 +115,11 @@
       <div class="rel">
         <div class="tit_hd">
           <div>
-            <h2>한 달의 여운</h2>
-            <p>여운 에디터가 들려주는 이달의 한 잔</p>
+            <h2 class="tit">한 달의 여운</h2>
+            <p class="display_in_360">여운 에디터가 들려주는 이달의 한 잔</p>
           </div>
-          <p class="display_in_768">
-            이 달의 분위기를 완성하는 특별한 한 잔,<br>
+          <p class="display_in_1200">
+            이 달의 분위기를 완성하는 특별한 한 잔, 
             여운이 엄선한 전통주를 만나보세요.
           </p>
         </div>
@@ -145,7 +129,6 @@
     <!-- section1_hd_sub -->
     <section id="section1_hd_sub">
       <div class="rel">
-        <span class="line"></span>
         <div class="sub_tit">
           <p>당신의 취향에 스며드는 우리 술의 매력,<span class="br430"><br></span> 매월 새롭게</p>
           <h3>한 달의 여운 구독하기</h3>
@@ -169,27 +152,27 @@
     
           <form action="#" method="post" class="subscribe_form">
             <div class="form_group">
-              <label for="name">이름</label>
+              <label for="name">이름<span class="required">*</span></label>
               <input type="text" id="name" name="name" placeholder="입력해주세요." required>
             </div>
     
             <div class="form_group">
-              <label for="phone">전화번호</label>
+              <label for="phone">전화번호<span class="required">*</span></label>
               <input type="text" id="phone" name="phone" placeholder="-를 제외하고 써주세요." required>
             </div>
     
             <div class="form_group">
-              <label for="email">이메일 혹은 카카오톡 계정 아이디</label>
+              <label for="email">이메일 혹은 카카오톡 계정 아이디<span class="required">*</span></label>
               <input type="text" id="email" name="email" placeholder="알림 받을 이메일 혹은 카카오톡 계정을 써주세요." required>
             </div>
     
             <div class="form_group">
-              <label for="birthdate">생년월일</label>
+              <label for="birthdate">생년월일<span class="required">*</span></label>
               <input type="text" id="birthdate" name="birthdate" placeholder="YYYY / MM / DD">
             </div>
     
             <div class="form_group">
-              <p>관심있는 전통주 종류</p>
+              <p>관심있는 전통주 종류<span class="required">*</span></p>
               <div class="sort_tradi_drink">
                 <label><input type="checkbox" name="interest" value="탁주"><span>탁주</span></label>
                 <label><input type="checkbox" name="interest" value="약.청주"><span>약·청주</span></label>
@@ -200,7 +183,7 @@
             </div>
     
             <div class="form_group benefit">
-              <p>받고 싶은 혜택</p>
+              <p>받고 싶은 혜택<span class="required">*</span></p>
               <div class="benefit_options">
                 <label><input type="radio" name="benefit" value="알람만" checked> 추천글 알림만 받기</label>
                 <label><input type="radio" name="benefit" value="쿠폰도"> 쿠폰도 함께 받기</label>
@@ -208,13 +191,13 @@
             </div>
     
             <div class="form_group agreement">
-              <p>약관 및 동의</p>
-              <label><input type="checkbox" name="agree1" required> 필수항목 개인정보 수집 및 활용에 동의</label>
-              <label><input type="checkbox" name="agree2"> 개인정보 제3자 제공동의</label>
-              <label><input type="checkbox" name="agree3"> 마케팅 정보 수신에 동의</label>
+              <p>약관 및 동의<span class="required">*</span></p>
+              <label><input type="checkbox" name="agree1" required> 필수항목 개인정보 수집 및 활용에 동의함 (필수)</label>
+              <label><input type="checkbox" name="agree2"> 개인정보 제3자 제공에 동의함 (선택)</label>
+              <label><input type="checkbox" name="agree3"> 마케팅 정보 수신에 동의함 (선택)</label>
             </div>
     
-            <a href="login.html" class="con_btn">한 달의 여운 구독하기</a>
+            <a href="#none" class="con_btn">한 달의 여운 구독하기</a>
             <p class="form_note">언제든 구독 해제가 가능합니다.</p>
           </form>
         </div>
